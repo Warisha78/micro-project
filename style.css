@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #086BA4;
+}
+/* navbar styling  */
+.navbar{
+    background-color: #086BA4;
+border: 5px solid white;
+border-left: 0;
+border-right: 0;
+}
+.navbar a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 400px;
+}
+.menu {color: aliceblue;
+    /* border: 2px solid white; */
+   background-color: #086BA4 ;
+}
+/* section styling */
+.sec-background{
+    background-color: #086BA4;
+    height: 600px;
+    /* background-color: #086BA4; */
+    background-image:url(./images/bacillus-161109_960_720.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    /* filter: blur(4px);
+    -webkit-filter: blur(2px); */
+    
+}
+.big-text{
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+/* section styling ends here */
+
+/* introduction styling */
+.Introduction{
+border: 4px solid white;
+    background-color: #086BA4;
+/* height: 300px; */
+
+
+}
+/* introduction ends here  */
+
+/* cards styling */
+
+.project{
+    background-color: #086BA4;
+
+}
+/* blog styling */
+.blog{
+
+    background-color: #086BA4;
+  height: 100%;
+}
+.blog img{
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;    
+}
+/* subscription styling */
+.subscribe{
+    background-color: #086BA4;
+
+}
+.con-subs{
+padding: 30px 30px;
+    background-color: black;
+}
+/* footer */
+.footer{
+    border: 4px solid white;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    background-color: #086BA4;
+}
+
+/* bacteria page styling */
+.bac-con{
+    background-color:#607D3B;
+}
+.green-body{
+    background-color:#086BA4;
+}
+
+/* media query */
+
+@media only screen and (max-width: 990px) {
+  /* section styling */
+  .big-text{
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+  }
+  @media only screen and (max-width: 780px){
+
+    .Introduction p{
+        width: 200px;
+    }
+  }
